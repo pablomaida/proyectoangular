@@ -1,0 +1,36 @@
+
+.nav{ 
+    width: 100%;
+    background:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo{
+font-size: 25px;
+font-weight: 100;
+}
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li a{
+    text-decoration:   none;
+    font-weight: bold;/*grosor de letra*/
+    transition: all 0.5s ease;
+}
+/*efecto*/
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color:red;
+    border-radius: 15px;
+}
+
+
