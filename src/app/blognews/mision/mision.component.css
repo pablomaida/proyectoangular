@@ -42,3 +42,19 @@
     color: black;
     margin-left: 50px;
 }
+
+@media screen and (max-width: 768px){
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .checklist-servicio{
+        width: 80%;
+    }
+    .service{
+        margin-bottom: 30px;
+    }
+
+    
+}
