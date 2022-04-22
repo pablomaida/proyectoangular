@@ -58,6 +58,7 @@
   margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
+  overflow-y: auto;
   color: #111;
   visibility: hidden;
   opacity: 0;
@@ -67,6 +68,6 @@
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
-  margin-top: -40px;
+  margin-top: -50px;
   transition-delay: 00.3s;
 }
