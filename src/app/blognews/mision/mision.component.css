@@ -1,3 +1,12 @@
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;/*todo lo que salga de esa meidia se oculte*/
+    margin: auto;/*pa centrar todo el contenido*/
+    padding: 50px 0; /*tenga un espaciado entre los elementos*/
+}
+
+
 .subtitulo{
     text-align: center;
     color: rgba(0, 0, 0, 0.582);
@@ -5,12 +14,10 @@
     font-size: 40px;
 }
 .contenedor-servicios{
- 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .contenedor-servicios img{
@@ -44,17 +51,24 @@
 }
 
 @media screen and (max-width: 768px){
-    .contenedor-servicio img{
+    .contenedor-servicios img{
         width: 80%;
         margin-bottom: 40px;
     }
 
+    .par{
+        margin-left: 0;
+    }
     .checklist-servicio{
         width: 80%;
     }
     .service{
         margin-bottom: 30px;
     }
+}
 
-    
+@media screen and (max-width:500px){
+    .subtitulo{
+        font-size: 30px;
+    }
 }
