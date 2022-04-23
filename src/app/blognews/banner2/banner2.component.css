@@ -1,8 +1,8 @@
 .cars-banners{
     width: 90%;
-    height: 500px;
+    height: 504px;
     background-image: url(../../../assets/u.jpg);
-
+    
     margin:auto;
 }
 
@@ -11,3 +11,15 @@
     padding: 90px ;
     color: black;
 }
+
+
+@media(max-width: 768px){
+    .cars-banners{
+        width: 90%;     
+        background-size: contain;  
+        background-repeat: no-repeat;
+        height: 200px;
+
+    }
+}
+
