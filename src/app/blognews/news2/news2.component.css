@@ -23,34 +23,34 @@
 
 .container .card {
   position: relative;
-  width: 300px;
-  height: 280px;
-  background: rgb(188, 79, 79);
+  width: 320px;
+  height: 320px;
+  background: rgb(254, 254, 254);
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
+
+  border-radius: 4px;
 }
 
-.container .card:hover {
+/* .container .card:hover {
   height: 300px;
-}
+} */
 
 .container .card .imagen {
   position: relative;
   width: 100%;
   height: 90%;
   top: -60px;
-  left: 20px;
   z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .card .imagen img {
   width: 100%;
-  height: 90%;
+  height: 82%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -59,18 +59,19 @@
   position: relative;
   margin-top: -140px;
   padding: 10px 15px;
-
   text-align: center;
   overflow-y: auto;
-  color: #111;
-  visibility: hidden;
-  opacity: 0;
+
+  visibility: visible;
+  opacity: 1;
+  margin-top: -100px;
+
   transition: 00.5s ease-in-out;
 }
 
-.container .card:hover .content {
+/* .container .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -50px;
   transition-delay: 00.5s;
-}
+} */
