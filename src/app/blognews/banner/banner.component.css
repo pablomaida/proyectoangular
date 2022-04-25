@@ -3,9 +3,9 @@
     padding: 0;
     font-family: lato;
 }
+/*realiza el resposive*/
 .banner_body {
 	display: flex;
-	
 }
  
 
@@ -32,7 +32,6 @@
 }
 
 .slider-frame img {
-
 	width: 65%;
     display: block;
     margin-left: auto;
