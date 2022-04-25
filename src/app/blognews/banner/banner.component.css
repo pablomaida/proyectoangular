@@ -3,6 +3,10 @@
     padding: 0;
     font-family: lato;
 }
+.banner_body {
+	display: flex;
+	
+}
  
 
 
