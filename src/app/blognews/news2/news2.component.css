@@ -23,9 +23,9 @@
 
 .container .card {
   position: relative;
-  max-width: 300px;
-  height: 215px;
-  background: #fff;
+  width: 300px;
+  height: 280px;
+  background: rgb(188, 79, 79);
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
@@ -35,13 +35,13 @@
 }
 
 .container .card:hover {
-  height: 420px;
+  height: 300px;
 }
 
 .container .card .imagen {
   position: relative;
-  width: 260px;
-  height: 260px;
+  width: 100%;
+  height: 90%;
   top: -60px;
   left: 20px;
   z-index: 1;
@@ -49,7 +49,9 @@
 }
 
 .container .card .imagen img {
-  max-width: 100%;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
   border-radius: 4px;
 }
 
@@ -57,17 +59,18 @@
   position: relative;
   margin-top: -140px;
   padding: 10px 15px;
+
   text-align: center;
   overflow-y: auto;
   color: #111;
   visibility: hidden;
   opacity: 0;
-  transition: 00.3s ease-in-out;
+  transition: 00.5s ease-in-out;
 }
 
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -50px;
-  transition-delay: 00.3s;
+  transition-delay: 00.5s;
 }
